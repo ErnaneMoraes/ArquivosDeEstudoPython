@@ -18,7 +18,6 @@ while rep in 'SsYy':
     if sexo == 'F' and idade < 20:
         cont2 += 1
 
-
     rep = str(input(f'QUER REPETIR? [S/N] ')).upper()
 
 print(f'Quantas pessoas tem mais de 18 anos: {conti}')
